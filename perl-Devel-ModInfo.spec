@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:  perl-XML-DOM
+BuildRequires:	perl-XML-DOM
 BuildRequires:	perl-Parse-RecDescent
 %endif
 BuildArch:	noarch
