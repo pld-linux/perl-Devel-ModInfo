@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Devel
-%define	pnam	ModInfo
+%define		pdir	Devel
+%define		pnam	ModInfo
 Summary:	Devel::ModInfo - documenting system for Perl modules without creating runtime overhead
 Summary(pl):	Devel::ModInfo - system dokumentacji modu³ów Perla bez narzutu w czasie wykonywania
 Name:		perl-Devel-ModInfo
