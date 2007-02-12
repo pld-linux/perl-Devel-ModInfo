@@ -6,7 +6,7 @@
 %define		pdir	Devel
 %define		pnam	ModInfo
 Summary:	Devel::ModInfo - documenting system for Perl modules without creating runtime overhead
-Summary(pl):	Devel::ModInfo - system dokumentacji modu≥Ûw Perla bez narzutu w czasie wykonywania
+Summary(pl.UTF-8):   Devel::ModInfo - system dokumentacji modu≈Ç√≥w Perla bez narzutu w czasie wykonywania
 Name:		perl-Devel-ModInfo
 Version:	0.05
 Release:	2
@@ -29,9 +29,9 @@ runtime overhead. Some of the concepts are based on the JavaBean
 BeanInfo API, but the implementation is specific to Perl, and does not
 require extra coding.
 
-%description -l pl
-ModInfo to system dokumentacji dla modu≥Ûw Perla bez tworzenia narzutu
-w czasie wykonywania. NiektÛre idee s± oparte na API JavaBean
+%description -l pl.UTF-8
+ModInfo to system dokumentacji dla modu≈Ç√≥w Perla bez tworzenia narzutu
+w czasie wykonywania. Niekt√≥re idee sƒÖ oparte na API JavaBean
 BeanInfo, ale implementacja jest specyficzna dla Perla i nie wymaga
 dodatkowego kodowania.
 
