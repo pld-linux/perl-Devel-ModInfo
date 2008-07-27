@@ -9,7 +9,7 @@ Summary:	Devel::ModInfo - documenting system for Perl modules without creating r
 Summary(pl.UTF-8):	Devel::ModInfo - system dokumentacji modułów Perla bez narzutu w czasie wykonywania
 Name:		perl-Devel-ModInfo
 Version:	0.05
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
