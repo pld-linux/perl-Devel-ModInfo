@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Devel
 %define		pnam	ModInfo
+%include	/usr/lib/rpm/macros.perl
 Summary:	Devel::ModInfo - documenting system for Perl modules without creating runtime overhead
 Summary(pl.UTF-8):	Devel::ModInfo - system dokumentacji modułów Perla bez narzutu w czasie wykonywania
 Name:		perl-Devel-ModInfo
@@ -14,11 +14,12 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	68b98713efba6de10af41bde55777b04
+URL:		http://search.cpan.org/dist/Devel-ModInfo/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-XML-DOM
 BuildRequires:	perl-Parse-RecDescent
+BuildRequires:	perl-XML-DOM
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
