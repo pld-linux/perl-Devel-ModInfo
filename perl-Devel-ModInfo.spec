@@ -4,7 +4,6 @@
 
 %define		pdir	Devel
 %define		pnam	ModInfo
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel::ModInfo - documenting system for Perl modules without creating runtime overhead
 Summary(pl.UTF-8):	Devel::ModInfo - system dokumentacji modułów Perla bez narzutu w czasie wykonywania
 Name:		perl-Devel-ModInfo
